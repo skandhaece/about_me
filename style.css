@@ -1,0 +1,243 @@
+html{
+    background-color: #E5DDC5;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+
+}
+
+.container{
+    /* background-color: #FFC94A; */
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+    grid-template-rows: repeat(2, 3fr) 1fr 2fr 1fr 1fr 2fr;
+    gap: 15px;
+    width: 100%;
+}
+.navbar{
+    background-color: #97E7E1;
+    display: flex;
+    gap: 40px;
+    border-bottom: 10px solid #6AD4DD;
+    width: 100%;
+    
+}
+.navbar h3{
+    background-color: #6AD4DD;
+    padding: 10px;
+    border-radius: 10%;
+    margin-left: 10px;
+    font-family: roboto;
+    letter-spacing: 3px;
+}
+
+.heading{
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end:2;
+    text-align: left;
+    font-size: 4rem;
+    font-family: "Bitter", serif;
+    color: #7AA2E3;
+
+    
+}
+.container span{
+    color: #FF9800;
+}
+.container p{
+    grid-column-start: 2;
+    grid-column-end:6;
+    grid-row-start: 3;
+    grid-row-end:4;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-top: 2px grey solid;
+    padding-top: 12px;
+    
+}
+
+.container>img{
+    border: 10px blueviolet solid;
+}
+.title{
+
+    z-index: -1;
+    background: linear-gradient(-45deg,#C08B5C,#795458,#453F78);
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.container img{
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 70%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left:15% ;
+    grid-column-start:3 ;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#code-icon{
+    grid-column-start: 4;
+    grid-column-end:6;
+    grid-row-start: 1;
+    grid-row-end:2;
+    border: none;
+}
+.Achievements{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: center;
+    border: 10px solid #BED7DC;
+    border-width: 10px 17px 0px 0px;
+    background-color: #BED7DC;
+}
+.Achievements>div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: start;
+    letter-spacing:2px ;
+    margin-left: 10%;
+}
+
+.Education{
+    background-color: #BED7DC;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    align-items: center;
+    border: 10px solid #BED7DC;
+    border-width: 10px 0px 0px 15px;
+}
+.Education>div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    gap: 10px;
+    letter-spacing:2px ;
+}
+li{
+    margin-bottom: 8px;
+    font-family: "Bitter", serif;
+}
+
+h2{
+    font-family: "Bitter", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    background-color: #B3C8CF;
+    padding: 5px 25% 5px 25%;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.Education h2{
+    padding: 5px 35% 5px 32%
+}
+.left_img{
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:4;
+    background-color: #F1EEDC;
+    z-index: 3;
+
+}
+.right_img{
+
+    width: 100%;
+    height: 100%;
+    grid-column-start: 6;
+    grid-column-end:7;
+    grid-row-start:2;
+    grid-row-end:4;
+    background-color: #F1EEDC;
+    z-index: 3;
+
+}
+#project-heading{
+    grid-column-start: 1;
+    grid-column-end:7;
+    grid-row-start:5;
+    grid-row-end:6;
+    width: 100%;
+    height: 100%;
+   background-color: #b3c8cf;
+   border-right: 15px #b3c8cf solid;
+
+   
+}
+
+.project-item{
+    background-color: #F1EEDC;
+    margin-top: 5%;
+    grid-column-start: 1;
+    grid-column-end:7;
+    grid-row-start:6;
+    grid-row-end:7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 15px solid #F1EEDC;
+    border-radius: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    flex-wrap: wrap;
+
+}
+a{
+    text-decoration: none;
+}
+h3{
+    
+    background-color: #b3c8cf;
+    padding: 5px;
+    border: 10px solid #e5ddc5;
+    border-radius: 10%;
+    background: linear-gradient(-45deg,#B3C8CF,#BED7DC,#F1EEDC,#E5DDC5);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
