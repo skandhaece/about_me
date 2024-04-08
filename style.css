@@ -84,8 +84,9 @@ body{
 .container img{
     border: 5px solid black;
     border-radius: 50%;
-    width: 100%;
+    width: 50%;
     height: 100%;
+    margin-left: 25%;
 
     grid-column-start:3 ;
     grid-column-end: 5;
